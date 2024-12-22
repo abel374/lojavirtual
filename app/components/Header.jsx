@@ -101,12 +101,12 @@ export default function Header() {
         </Link>
         <Link href='/about'>
           <Navbar.Link active={path === '/about'} as={'div'}>
-            About
+            Sobre
           </Navbar.Link>
         </Link>
         <Link href='/projects'>
           <Navbar.Link active={path === '/projects'} as={'div'}>
-            Projects
+            Projectos
           </Navbar.Link>
         </Link>
       </Navbar.Collapse>
